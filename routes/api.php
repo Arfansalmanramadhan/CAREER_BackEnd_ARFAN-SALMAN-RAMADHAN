@@ -31,8 +31,8 @@ Route::middleware('api')->group(function () {
         Route::delete("/delete/{id}", "destroy")->middleware("auth:sanctum");
     });
     Route::controller(dataKaryawan::class)->group(function () {
-        Route::get('/getByName', 'getByName');
-        Route::get('/getByNim', 'getByNim');
-        Route::get('/getByYmd', 'getByYmd');
+        Route::get('/getByName', 'getByName')->middleware("auth:sanctum");
+        Route::get('/getByNim', 'getByNim')->middleware("auth:sanctum");
+        Route::get('/getByYmd', 'getByYmd')->middleware("auth:sanctum");
     });
 });

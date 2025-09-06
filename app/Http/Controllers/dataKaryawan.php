@@ -31,7 +31,9 @@ class dataKaryawan extends Controller
         $data = $this->parseData();
 
         if (!$name) {
-            return response()->json(["error" => "Parameter 'nama' wajib diisi"], 400);
+            return response()->json([
+                "error" => "Parameter 'nama' wajib diisi"
+            ], 400);
         }
 
         return $data->where('NAMA', $name)->values();
@@ -43,7 +45,9 @@ class dataKaryawan extends Controller
         $data = $this->parseData();
 
         if (!$nim) {
-            return response()->json(["error" => "Parameter 'nim' wajib diisi"], 400);
+            return response()->json([
+                "error" => "Parameter 'nim' wajib diisi"
+            ], 400);
         }
 
         return $data->where('NIM', $nim)->values();
@@ -55,7 +59,9 @@ class dataKaryawan extends Controller
         $data = $this->parseData();
 
         if (!$ymd) {
-            return response()->json(["error" => "Parameter 'ymd' wajib diisi"], 400);
+            return response()->json([
+                "error" => "Parameter 'ymd' wajib diisi"
+            ], 400);
         }
 
         return $data->where('YMD', $ymd)->values();
