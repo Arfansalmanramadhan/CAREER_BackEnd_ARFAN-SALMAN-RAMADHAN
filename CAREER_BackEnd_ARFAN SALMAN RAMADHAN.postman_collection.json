@@ -1,0 +1,719 @@
+{
+	"info": {
+		"_postman_id": "e040d4c3-44ee-40a6-962b-8adc610a2c07",
+		"name": "CAREER_BackEnd_ARFAN SALMAN RAMADHAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26165721",
+		"_collection_link": "https://myapiarfan.postman.co/workspace/projek-Workspace~12ea9e55-dcfd-4c94-82fa-fbc85d1870c5/collection/26165721-e040d4c3-44ee-40a6-962b-8adc610a2c07?action=share&source=collection_link&creator=26165721"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "registr",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Cache-Control",
+								"value": "no-cache",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Postman-Token",
+								"value": "<calculated when request is sent>",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "multipart/form-data; boundary=<calculated when request is sent>",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Content-Length",
+								"value": "<calculated when request is sent>",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Host",
+								"value": "<calculated when request is sent>",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "User-Agent",
+								"value": "PostmanRuntime/7.39.1",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "*/*",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "gzip, deflate, br",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Cache-Control",
+								"value": "no-cache",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Postman-Token",
+								"value": "<calculated when request is sent>",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "text/plain",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Content-Length",
+								"value": "<calculated when request is sent>",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Host",
+								"value": "<calculated when request is sent>",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "User-Agent",
+								"value": "PostmanRuntime/7.39.1",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "*/*",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "gzip, deflate, br",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Authorization",
+								"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxNyIsImp0aSI6IjM1ZWE4MDlhMDAzNzRlOTk3NTE0NjAwMmZjM2QwNDRjNWIxZTBlYzA1NTViMmY5N2JiMDNmNGJhNDJjN2VhNzRhYTJmMmFlMWEyYzY1MWE4IiwiaWF0IjoxNzQyMjY3NzU2LCJuYmYiOjE3NDIyNjc3NTYsImV4cCI6MTc0MjM1NDE1Niwic3ViIjoiYXJpb2hwIiwic2NvcGVzIjpbImNlbG9lLWRhc2hib2FyZCIsIm9sZC1kb3NlbiIsIm9sZC1kb3Nlbi13YWxpIiwib2xkLWFkbWluLXNkbSIsImVtcGxveWVlLXN0cnVjdHVyYWwiLCJvbGQta2Fwcm9kaSIsImFkbWluLWdlbmVyYXRlIiwib2xkLWFkbWluLWtldWFuZ2FuIiwidHJhaW5pbmctdXNlci1hcHByb3ZhbCIsIm9sZC1iYWEiLCJvbGQta2V1YW5nYW4iLCJvbGQtd2FraWwtZGVrYW4taSIsInRyYWluaW5nLXVzZXItZmFrdWx0YXMiLCJvbGQtYmsiLCJhZG1pc3Npb24tYWRtaW4iLCJhZG1pc3Npb24tZGFzaGJvYXJkLXVzZXJzIiwiYXR0ZW5kYW5jZS1lbXBsb3llZSIsImRhc2hib2FyZC11c2VyIiwibmV3cy1hcHByb3ZlciIsIm5ld3MtY3JlYXRvciIsIm5ldy1zc28iLCJvbGQtcGVnYXdhaSIsInNzby1vcGVubGliIiwic3RhZmZfdGVzdF9zcHMiLCJvbGQtYWRtaW4tYWRtaXNzaW9uIiwib2xkLWRla2FuIiwib2xkLXNpc2ZvIiwib2xkLW1hbmFnZXIiLCJvbGQtcnVtYWgtdGFuZ2dhIiwib2xkLWxlZ2FsIiwib2xkLXBwbSIsIm9sZC1wcG0tZXZhbHVhdG9yIiwib2xkLWFkbWluLXNwbSIsIm9sZC1hc2lzdGVuLW1hbmFnZXIiLCJvbGQtYWRtaW4tYmtkIiwib2xkLWJhbmdzZG0iLCJvbGQtYWRtaW4tbGFjIiwib2xkLXNkbS1maWYiLCJvbGQtd2FraWwtZGVrYW4iLCJvbGQtYWRtaW4tbGFhayIsIm9sZC1hZG1pbi1oZWxwZGVzayIsIm9sZC1hZG1pbi1zYWkiLCJvbGQtYmstdGVsdSIsIm9sZC1jZGMiLCJvbGQtcW1yIiwib2xkLWFkbWluLXBwbSIsIm9sZC1hZG1pbi1ob25vciIsIm9sZC1hZG1pbi1iayIsIm9sZC1hZG1pbi1rZWx1aGFuLXBlbmdndW5hIiwib2xkLWFkbWluLWFzcmFtYSIsIm9sZC1hZG1pbi1rb25zZWxvciIsIm9sZC1hbmdnYXJhbiIsIm9sZC1zZW5hdC1pbnN0aXR1c2kiLCJvbGQtZGV2dGVhbSIsIm9sZC1iay1pc2FtIiwib2xkLWFkbWluLWlvIiwib2xkLXNyLWRvcm1pdG9yeSIsIm9sZC1rb25zZWxvci1iayIsIm9sZC1hZG1pbi1yZWdpc3RyYXNpLWZha3VsdGFzIiwiaXRkb2MtbWFxdXRpIiwiZnVydGhlci1zdHVkeS11c2VyIiwidHJhaW5pbmctYWRtaW4tdW5pdmVyc2l0YXMiLCJ0cmFpbmluZy11c2VyIiwiYWRtaW4tcDNpIiwiYWRtaW4tYmstdGFrIiwib2xkLXN1cGVyYWRtaW4tY3JlZGl0LXBheW1lbnQiLCJzdXBlcmFkbWluLWNyZWRpdC1wYXltZW50IiwiZGV2dGVhbS1tYW5hZ2VyIl19.pDqTPFlCS4H5JmS4gLY_y9kV66vGU0O4_Z1QMksEGIks5hW0WYFHIBJoPbBiKTY5tJT-mJoduU-8KROwOhD1i9onQuFZ57REwL4xjgysqMA-ktsqhNUSXLilVgMFw_Akh-eoJHMgj25qI9dvgffp-ZYik7dq6Yy4_GL8UkEGpu9uTw7s3OVJITJCFwUJenI9y_DbcOT6jbxajQhbnsGgOur5SlOyL7A2IGrJwxhKmKpW1I6HP5spCbXJnfbwHkOQOC1IIO6Vj9yHSf4a3xnphsL2ok6rjAhY1OCq6WQS8ahenxt-wCOvMN8P68e9Q8K_19N6UnHuSefkWY4BuFo2qUKYFrjFTi5UVHeH6fIyjdPvhQR0Btey94KUE6xuvzlr4K6wLt1jtHNLOt4sIaCznq9KXkzZIw7D3xjMbbH7JhNe97wLcnTYI8bd-pCjnCxC0Z072ZvIVdLvaWaSu5IgPxlmiBJZ7hGOLSl3EYQ0NGRmHDMCMx7xgXEQ6BA2W69C8nIEfeJGUi9HFN-xBxYkGtihf7zO1oy6576x5UWyEJ8krZBmTkOuF53p5bCJCv05pCxiJmPEMcRLkhioLiZqxcRlJFozRlGM7F0fdWQ93NtBQtNMzuTCMuYEoPmivjk22G3McytlQOrCfe2aQ-KOxG8yJwpLVcAGz23tOKrVsTc",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "X-I",
+								"value": "ariohp",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nama_user",
+									"value": "Arfan Salman Ramadhan",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "arfansalman@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "arfansalman",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "purpose_id",
+									"value": "3",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "notes",
+									"value": "test",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "transfer_id",
+									"value": "2",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "accomodation_id",
+									"value": "3",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "employee",
+									"value": "[{\"username\":\"Arfan\",\"fullname\":\"ARFAN SALMAN RAMADHAN\",\"employeeid\":\"1234567-1\",\"external_bank_name\":null,\"external_bank_account\":null,\"external_type_id\":null,\"real_position\":null,\"transportation_id\":3,\"active_status\":1},{\"username\":\"test-eksternal\",\"fullname\":\"test\",\"employeeid\":\"1234\",\"external_bank_name\":null,\"external_bank_account\":null,\"external_type_id\":1,\"real_position\":\"OUTSOURCING\",\"transportation_id\":3,\"active_status\":1}]",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "officers_details",
+									"value": "{\"data\":[{\"username\":\"asih\",\"process_id\":2,\"officer_role_id\":1},{\"username\":\"maya\",\"process_id\":3,\"officer_role_id\":2},{\"username\":\"dadangset\",\"process_id\":4,\"officer_role_id\":3},{\"username\":\"asih\",\"process_id\":5,\"officer_role_id\":1}]}",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "orgstructure_id",
+									"value": "1231",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "start_event",
+									"value": "2020-05-03",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "end_event",
+									"value": "2020-05-04",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "purpose_file",
+									"type": "file",
+									"src": "7BtCxkfRH/04_Propagasi Sinyal pada Kanal Fading Komunikasi bergerak.pdf",
+									"disabled": true
+								},
+								{
+									"key": "ticket_file",
+									"type": "file",
+									"src": "lOpGlAHUf/05_Prediksi Redaman(Path Loss Model).pdf",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "arfansalman@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "arfansalman",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "Lwim80qyAT6YWWGcj4ip5CAUClT1ulgoZuUDoFEZ494fdee6",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "arfansalman@gmail.com",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "username",
+									"value": "arfansalman",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/logout",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "user",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "Wr8V6S8oLGr8rR78TkWl9rxVDwuOBOg47TtUs2g18ace2151",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "arfansalman@gmail.com",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "username",
+									"value": "arfansalman",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/user",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "edit",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "Uv3SaCzi1NBjnLvwUWJEXrFQ24MLkpxQD7WlhsOh83c17edd",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "nama_user",
+									"value": "Salman arfan ramadhan",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "arfansalman@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "salmanarfan",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/update/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "Y1Yfbf1jzHfdb1WMyCf434z8PfZvjy5NZzyAYN0Zd2b20f05",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/delete/1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"delete",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Fitur pencarian data karyawan",
+			"item": [
+				{
+					"name": "getByNim",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "vJzP5qK0IfTv16tVPlQQ2dAi5mR7TKKdDu0MenBOe69bae9f",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/getByNim?NIM=9352078461",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getByNim"
+							],
+							"query": [
+								{
+									"key": "NIM",
+									"value": "9352078461"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getByYmd",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "vJzP5qK0IfTv16tVPlQQ2dAi5mR7TKKdDu0MenBOe69bae9f",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/getByYmd?YMD=20230405",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"getByYmd"
+							],
+							"query": [
+								{
+									"key": "YMD",
+									"value": "20230405"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "getByName",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/getByName?NAMA=Turner Mia",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"getByName"
+					],
+					"query": [
+						{
+							"key": "NAMA",
+							"value": "Turner Mia"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
