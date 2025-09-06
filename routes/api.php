@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\dataKaryawan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -28,5 +29,10 @@ Route::middleware('api')->group(function () {
         Route::get("/edit/{id}", "edit")->middleware("auth:sanctum");
         Route::post("/update/{id}", "update")->middleware("auth:sanctum");
         Route::delete("/delete/{id}", "destroy")->middleware("auth:sanctum");
+    });
+    Route::controller(dataKaryawan::class)->group(function () {
+        Route::get('/getByName', 'getByName');
+        Route::get('/getByNim', 'getByNim');
+        Route::get('/getByYmd', 'getByYmd');
     });
 });
